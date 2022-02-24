@@ -1,0 +1,24 @@
+.main_wrap{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: flex-start;
+}
+.header{
+	display: flex;
+	flex-direction: column;
+	background-color: $color1;
+	width: 100%;
+	font-family: $fontfam;
+	
+}
+.main{
+	flex-grow: 1;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: #000;
+	display: flex;
+}
+
